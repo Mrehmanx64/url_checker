@@ -82,6 +82,34 @@ The app handles:
 - ❌ Invalid URLs
 - 📱 Small terminals
 
+## 🔍 Troubleshooting
+
+### Windows Users
+
+```bash
+# If you see "curses" related errors:
+pip install windows-curses
+```
+
+### Permission Issues
+
+```bash
+# If you get permission errors:
+# Linux/MacOS
+sudo pip install requests openpyxl
+
+# Windows (Run PowerShell as Administrator)
+pip install requests openpyxl
+```
+
+### Excel File Access Error
+
+```bash
+# If Excel file is locked:
+1. Close any open Excel instances
+2. Try saving with a different filename
+```
+
 ## 🤝 Contributing
 
 ```
